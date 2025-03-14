@@ -1,74 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Netflix Clone</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <body>
+    <!-- container -->
+    <div class="container">
+      <!-- bg-container -->
+      <div class="bg-container">
+        <div class="bg-img"></div>
+        <div class="overlay"></div>
+        <div class="overlay-1"></div>
+        <div class="overlay-2"></div>
+      </div>
+      <!-- bg-container -->
 
-<body>
-  <!-- container -->
-  <div class="container">
-    <!-- bg-container -->
-    <div class="bg-container">
-      <div class="bg-img"></div>
-      <div class="overlay"></div>
-      <div class="overlay-1"></div>
-      <div class="overlay-2"></div>
-    </div>
-    <!-- bg-container -->
-
-    <!-- elements -->
-    <div class="elements">
-      <div class="navbar-container">
-        <div class="navbar-ch-1">
-          <div class="navbar-ch-2">
-            <div class="navbar-ch-3">
-              <div class="navbar-ch-4">
-                <div class="navbar-ch-5">
-                  <div class="nav">
-                    <img src="./assets/images/Netflix_Logo_PMS.png" width="213px" alt="" />
-                    <button class="button">Sign In</button>
+      <!-- elements -->
+      <div class="elements">
+        <div class="navbar-container">
+          <div class="navbar-ch-1">
+            <div class="navbar-ch-2">
+              <div class="navbar-ch-3">
+                <div class="navbar-ch-4">
+                  <div class="navbar-ch-5">
+                    <div class="nav">
+                      <img
+                        src="./assets/images/Netflix_Logo_PMS.png"
+                        width="190px"
+                        alt=""
+                      />
+                      <button class="button">Sign In</button>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="nav-menu-container">
-          <div class="nav-menu">
-            <p>Popular Now</p>
-            <p>Plans</p>
-            <p>Reasons to Join</p>
-            <p>FAQ</p>
+          <div class="nav-menu-container">
+            <div class="nav-menu">
+              <p>Popular Now</p>
+              <p>Plans</p>
+              <p>Reasons to Join</p>
+              <p>FAQ</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- hero-container -->
-      <div class="hero-container">
-        <div class="hero-container-1">
-        <div class="hero-overlay-1">
-        </div>
-        <div class="hero-overlay-2">
-        </div>
-
+        <!-- hero-container -->
+        <div class="hero-container">
           <div class="hero-container-bg"></div>
+          <div class="hero-overlay-1"></div>
+          <div class="hero-overlay-2"></div>
+
+          <div class="hero-content">
+            <h1>Unlimited movies, TV shows, and more</h1>
+            <p>Starts at USD 2.99. Cancel anytime.</p>
+            <p class="cta-text">
+              Ready to watch? Enter your email to create or restart your
+              membership.
+            </p>
+            <form class="email-form">
+              <input type="email" placeholder="Email address" required />
+              <button type="submit" class="btn">Get Started ></button>
+            </form>
+          </div>
         </div>
+        <!-- hero-container -->
+
       </div>
-      <!-- hero-container -->
-
+      <!-- elements -->
     </div>
-    <!-- elements -->
-  </div>
-  <!-- container -->
+    <!-- container -->
 
-
-
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
