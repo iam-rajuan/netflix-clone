@@ -411,3 +411,86 @@ body {
 .email-form .btn:hover {
   background-color: #f40612;
 }
+.trending{
+  height: auto;
+  width: 100%;
+  max-width: 92rem;
+  margin-top: 2rem;
+}
+.trending-content h1{
+  text-align: left;
+  font-weight: bolder;
+  font-size: 2.3rem;
+}
+
+.card-container{
+  display: flex;
+}
+.card-elements{
+  /* position: relative; */
+  display: flex;
+}
+.cards{
+  padding: 0.8rem 1rem;
+  /* position: relative; */
+  display: flex;
+  /* padding-left: 1.2rem; */
+  height: 25rem;
+  /* width: 12.5rem; */
+  /* left: -1.5rem; */
+  
+}
+.cards img{
+  background-size: cover;
+  cursor: pointer;
+  position: relative;
+  padding: 0;
+  background: rgb(35, 35, 35);
+  border: none;
+  border-radius: 1rem;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+}
+/* .cards img:hover{
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  background-size: cover;
+  cursor: pointer;
+
+} */
+.cards span{
+  z-index: 6;
+  left: 1.3rem;
+  line-height: 1;
+  display: inline-block;
+  height: 5rem;
+  font-size: 5rem;
+  position: relative;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.8);
+  -webkit-text-stroke: 0.125rem rgb(255, 255, 255);
+  text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+}
+
+.card-button{
+  transition: opacity 400ms ease-in-out;
+  height: 5rem;
+  width: 1.5rem;
+  border-radius: 16rem;
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex
+;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  color: rgb(255, 255, 255);
+  background-color: rgba(128, 128, 128, 0.4);
+}
