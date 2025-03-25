@@ -93,3 +93,5 @@ document.addEventListener('DOMContentLoaded', () => {
       elements.style.transform = `translateX(-${currentPosition}px)`;
     });
   });
+
+  
