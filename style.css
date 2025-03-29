@@ -74,7 +74,7 @@ body {
 .navbar-container {
   position: relative;
   width: 100%;
-  z-index: 4;
+  z-index: 99999;
   display: flex;
   justify-content: center;
 }
